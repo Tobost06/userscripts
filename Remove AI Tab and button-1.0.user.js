@@ -37,7 +37,7 @@
     showDiscussionsTab();
 
     const observer = new MutationObserver((mutations) => {
-        removeAiTabSection();s
+        removeAiTabSection();
         removeAiTab();
         showDiscussionsTab();
     });
